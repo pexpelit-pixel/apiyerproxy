@@ -1,0 +1,13 @@
+name = "apiyerproxy"
+main = "src/index.js"
+compatibility_date = "2026-10-21"
+workers_dev = true
+
+# Create this namespace with: npx wrangler kv namespace create ROUTES
+# Then replace the placeholder below with the real namespace ID.
+[[kv_namespaces]]
+binding = "ROUTES"
+id = "e5ecfc61d0bd4f49829b12ea7bc0f242"
+
+[vars]
+ALLOWED_ORIGIN = "*"
